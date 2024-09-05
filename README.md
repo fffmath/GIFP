@@ -17,11 +17,7 @@ $ sage -python --version
 Python 3.11.1
 ```
 Note: If your SageMath Python version is older than 3.11.1, some features in some scripts might not work.
-## Usage
-```bash
-# sage gifp.sage <modulus_bit_length> <alpha> <gamma> <beta1> <beta2> <m>
-sage gifp.sage 200 0.1 0.7 0.1 0.15 4
-```
+
 ## Usage
 
 Usage: sage gifp.sage `<modulus_bit_length>` `<alpha>` `<gamma>` `<beta1>` `<beta2>` `<m>`
