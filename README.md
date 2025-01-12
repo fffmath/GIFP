@@ -2,6 +2,8 @@
 
 Code for the paper [“Generalized Implicit Factorization Problem"](https://eprint.iacr.org/2023/1562.pdf).
 
+I'm delighted to see these results appear in CTF competitions, and I would love to know which CTF they appear in. Feel free to email me the challenge details and your competition link, and I'll update to share them at [Some related CTF challenges](#some-related-ctf-challenges) 😃😃😃.
+
 ## Introduction
 
 This is a Python implementation of GIFP based on [Joachim Vandersmissen's crypto-attacks](https://github.com/jvdsn/crypto-attacks) and [Mengce Zheng's Boneh_Durfee_Attack](https://github.com/MengceZheng/Boneh_Durfee_Attack).
@@ -81,6 +83,10 @@ However, we find $\gcd(f_1,f_2)\vert \gcd(f_2,f_3)$, which yield $\gcd(f_2,f_3)$
 $$(1300454658952415958122805611909448306202465823887874467*y - 633281*w) * (x + 1496577676626844588240573268701473812127674924007424*y + w).$$
 
 Using $z_0* w_0 = N_2$ and $1300454658952415958122805611909448306202465823887874467*y_0 - 633281*w_0=0$, then we have $y_0z_0= 512797389907$ and the remaining steps are the same as above.
+
+### Some related CTF challenges
+- “凌武杯” D^3CTF 2024 [[myRSA.py](https://www.fffmath.com/code/myRSA.py)][[WriteUp](https://mp.weixin.qq.com/s/0sBfu94em2sR82OYDZF6zQ)]
+
 ### Author
 
 You can find more information on [my personal website](https://www.fffmath.com/).
