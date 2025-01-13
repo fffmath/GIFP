@@ -84,7 +84,7 @@ $$(1300454658952415958122805611909448306202465823887874467*y - 633281*w) * (x + 
 
 Using $z_0* w_0 = N_2$ and $1300454658952415958122805611909448306202465823887874467*y_0 - 633281*w_0=0$, then we have $y_0z_0= 512797389907$ and the remaining steps are the same as above.
 
-### Some related CTF challenges 🚩
+### Some related CTF challenges
 - “凌武杯” D^3CTF 2024 [[myRSA.py](https://www.fffmath.com/code/myRSA.py)][[WriteUp](https://mp.weixin.qq.com/s/0sBfu94em2sR82OYDZF6zQ)]
 
 ### Author
